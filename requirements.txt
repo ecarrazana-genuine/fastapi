@@ -13,4 +13,10 @@ six
 starlette
 websockets
 wrapt
-uVicorn[standard]
+uvicorn[standard]
+pyodbc
+elasticsearch
+pandas
+requests
+
+
