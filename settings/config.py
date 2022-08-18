@@ -9,9 +9,11 @@ if os.path.exists(path_env_file):
 else:
     load_dotenv()
 
-SQL_DW_SERVER = os.getenv("dw_server")
-SQL_DW_DATABASE = os.getenv("dw_database")
-SQL_DW_USERNAME = os.getenv("dw_username")
-SQL_DW_PASSWORD = os.getenv("dw_password")
-ELASTIC_PASSWORD = os.getenv("ELASTIC_PASSWORD")
-CLOUD_ID = os.getenv("CLOUD_ID")
+SQL_DW_SERVER = os.environ.get("dw_server")
+SQL_DW_DATABASE = os.environ.get("dw_database")
+SQL_DW_USERNAME = os.environ.get("dw_username")
+SQL_DW_PASSWORD = os.environ.get("dw_password")
+ELASTIC_PASSWORD = os.environ.get("ELASTIC_PASSWORD")
+CLOUD_ID = os.environ.get("CLOUD_ID")
+
+
