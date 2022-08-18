@@ -18,5 +18,5 @@ pyodbc
 elasticsearch
 pandas
 requests
-
+sqlalchemy
 
